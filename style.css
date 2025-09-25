@@ -32,4 +32,191 @@
     font-size: 20px;
     letter-spacing: 0.5px;
   }
+<<<<<<< HEAD
+=======
+  .nav-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+  }
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+  .main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .hero {
+    background: url("https://images.unsplash.com/photo-1523580494866-818d17f2ee11?auto=format&fit=crop&w=1400&q=60") center/cover no-repeat;
+    color: #fff;
+    padding: 110px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 38px;
+    margin-bottom: 12px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+  .btn {
+    display: inline-block;
+    background: #ffd54f;
+    color: #111;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+  }
+  .about {
+    padding: 60px 0;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .about-img img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+  .features {
+    margin-top: 14px;
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+  }
+  
+  /* (38) شبكة الكورسات والبطاقات */
+  .courses {
+    background: #f6f9ff;
+    padding: 50px 0;
+  }
+  
+  .courses-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  
+  .course-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(12,40,80,0.06);
+  }
+  
+  .course-card .level {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #555;
+  }
+  .teachers {
+    padding: 50px 0;
+  }
+  
+  .teachers-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .teacher-card {
+    background: #fff;
+    padding: 16px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  }
+  
+  .teacher-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 12px;
+  }
+  .activities, .news, .contact {
+    padding: 50px 0;
+  }
+  
+  .activities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  
+  .activity {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .news-list {
+    display: grid;
+    gap: 12px;
+  }
+  
+  .news-item {
+    background: #fff;
+    padding: 14px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+  }
+  
+  .contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    gap: 12px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    border: 1px solid #d7dbe6;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+  .site-footer {
+    background: #072a4b;
+    color: #fff;
+    padding: 30px 0 18px;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .footer-about p {
+    color: #d0d8e6;
+    margin-top: 8px;
+  }
+  
+  .footer-links a {
+    color: #cfe3ff;
+    text-decoration: none;
+  }
+>>>>>>> Rached
 
