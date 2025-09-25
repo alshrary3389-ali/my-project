@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .site-header {
     background: linear-gradient(90deg, #0b5fb0, #074a91);
     color: #fff;
@@ -5,4 +6,16 @@
     top: 0;
     z-index: 100;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  }
+  .container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+>>>>>>> Rached
   }
