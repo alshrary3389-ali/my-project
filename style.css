@@ -64,3 +64,62 @@
     font-size: 18px;
     margin-bottom: 18px;
   }
+  .btn {
+    display: inline-block;
+    background: #ffd54f;
+    color: #111;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 700;
+  }
+  .about {
+    padding: 60px 0;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .about-img img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+  .features {
+    margin-top: 14px;
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+  }
+  
+  /* (38) شبكة الكورسات والبطاقات */
+  .courses {
+    background: #f6f9ff;
+    padding: 50px 0;
+  }
+  
+  .courses-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  
+  .course-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(12,40,80,0.06);
+  }
+  
+  .course-card .level {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #555;
+  }
+
