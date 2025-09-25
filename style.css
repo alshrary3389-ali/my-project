@@ -43,4 +43,24 @@
     gap: 18px;
     align-items: center;
   }
+  .main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .hero {
+    background: url("https://images.unsplash.com/photo-1523580494866-818d17f2ee11?auto=format&fit=crop&w=1400&q=60") center/cover no-repeat;
+    color: #fff;
+    padding: 110px 0;
+    text-align: center;
+  }
   
+  .hero h1 {
+    font-size: 38px;
+    margin-bottom: 12px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
