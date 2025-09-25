@@ -18,7 +18,9 @@
     max-width: 1200px;
     margin: 0 auto;
 
+
   }
+
   .header-inner {
     display: flex;
     align-items: center;
@@ -97,7 +99,7 @@
     justify-content: flex-start;
   }
   
-  /* (38) شبكة الكورسات والبطاقات */
+
   .courses {
     background: #f6f9ff;
     padding: 50px 0;
@@ -214,4 +216,56 @@
     color: #cfe3ff;
     text-decoration: none;
   }
+  .socials a {
+    display: inline-block;
+    margin-left: 8px;
+    color: #fff;
+  }
+  
+  /* طباعة الحقوق */
+  .copyright {
+    text-align: center;
+    margin-top: 18px;
+    color: #cfd8e3;
+    font-size: 14px;
+  }
+  
+  /* ---------- استجابة الموبايل ---------- */
+  @media (max-width: 900px) {
+    .about-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .courses-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .activities-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    /* اظهار زر القائمة على الموبايل وإخفاء القائمة الأفقية */
+    .nav-toggle {
+      display: block;
+    }
+  
+    .main-nav {
+      display: none; /* يمكن تفعيله بالـ JS عند الضغط على زر القائمة */
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .hero h1 {
+      font-size: 26px;
+    }
+  
+    .teacher-card {
+      width: 100%;
+    }
+  }
+  
 
