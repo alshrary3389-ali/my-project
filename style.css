@@ -32,6 +32,8 @@
     font-size: 20px;
     letter-spacing: 0.5px;
   }
+
+
   .nav-toggle {
     display: none;
     background: transparent;
@@ -216,6 +218,7 @@
     color: #cfe3ff;
     text-decoration: none;
   }
+
   .socials a {
     display: inline-block;
     margin-left: 8px;
@@ -268,4 +271,5 @@
     }
   }
   
+
 
