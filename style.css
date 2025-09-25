@@ -150,5 +150,48 @@
     display: block;
     margin: 0 auto 12px;
   }
+  .activities, .news, .contact {
+    padding: 50px 0;
+  }
   
+  .activities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  
+  .activity {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .news-list {
+    display: grid;
+    gap: 12px;
+  }
+  
+  .news-item {
+    background: #fff;
+    padding: 14px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+  }
+  
+  .contact-form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    gap: 12px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    border: 1px solid #d7dbe6;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+    
 
