@@ -30,3 +30,17 @@
     font-size: 20px;
     letter-spacing: 0.5px;
   }
+  .nav-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+  }
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+  
