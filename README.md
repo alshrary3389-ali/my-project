@@ -24,9 +24,8 @@ The design is **Responsive** and works on all devices (Desktop, Tablet, Mobile).
    ```bash
    git clone https://github.com/username/school-website.git
 
-2. Open the file index.html in your preferred browser.
-3. Explore the website ✨.
-
+Demo   
+ Explore the website ✨.
 [Demo](https://alshrary3389-ali.github.io/my-project/)
 
 📂 Project Structure
